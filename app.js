@@ -39,10 +39,10 @@ person3 = {name: "p3", age: 31};
 person4 = {name: "p4", age: 41};
 person5 = {name: "p5", age: 51};
 
-people = [person1.name+age, person2.name+age, person3.name+age, person4.name+age, person5.name+age];
+people = [person1, person2, person3, person4, person5];
 
 let p = 0
-while(p < 5){
-    console.log(checkAge(people.p));
+while(p < 6){
+    checkAge(people[p].name, people[p].age);
     p++;
 }
